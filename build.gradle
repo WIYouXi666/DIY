@@ -21,6 +21,10 @@ buildscript{
 apply plugin: "kotlin"
 
 sourceSets.main.kotlin.srcDirs = ["src"]
+java{
+    targetCompatibility = 8
+    sourceCompatibility = JavaVersion.VERSION_17
+}
 
 repositories{
     mavenCentral()
