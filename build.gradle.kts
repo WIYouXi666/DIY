@@ -35,7 +35,7 @@ dependencies {
     api(kotlin("stdlib"))
     compileOnly("com.github.Anuken.Arc:arc-core:${mindustryVersion}")
     compileOnly("com.github.Anuken.Mindustry:core:${mindustryVersion}")
-    implementation("com.github.liplum:MultiCrafterLib:v1.8")
+
     annotationProcessor("com.github.Anuken:jabel:$jabelVersion")
 }
 
