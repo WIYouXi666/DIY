@@ -14,7 +14,7 @@ main: "example.ExampleKotlinMod"
 description: "A Mindustry Kotlin mod template."
 
 #the mod version
-version: 1.0
+version: 1.00000
 
 #the minimum game build required to run this mod
 minGameVersion: 129
